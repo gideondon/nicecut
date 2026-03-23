@@ -5,10 +5,12 @@ import Gallery from "@/components/Gallery";
 import Booking from "@/components/Booking";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import AnunsioPopup from "@/components/AnunsioPopup";
 
 export default function Home() {
   return (
     <main>
+      <AnunsioPopup />
       <Header />
       <Hero />
       <Services />

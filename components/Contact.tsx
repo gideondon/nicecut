@@ -1,5 +1,6 @@
 const PHONE_NUMBER = "+59996666104";
 const WHATSAPP_URL = `https://wa.me/59996666104`;
+const MAPS_URL = `https://www.google.com/maps/dir/?api=1&destination=12.17095,-68.95475`;
 
 export default function Contact() {
   return (
@@ -15,51 +16,56 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-3 gap-6 mb-16">
           {/* Phone */}
-          <div className="bg-dark-card border border-dark-border rounded-xl p-8 text-center hover:border-gold/40 transition-all duration-300 group">
+          <a
+            href={`tel:${PHONE_NUMBER}`}
+            className="bg-dark-card border border-dark-border rounded-xl p-8 text-center hover:border-gold/40 transition-all duration-300 group block"
+          >
             <div className="text-4xl mb-5 text-gold">📞</div>
             <h3 className="font-display text-lg font-semibold text-white tracking-wide uppercase mb-3">
-              Bel Ons
+              Bel Nos
             </h3>
-            <a
-              href={`tel:${PHONE_NUMBER}`}
-              className="font-body text-gray-300 hover:text-gold transition-colors text-lg"
-            >
+            <span className="font-body text-gray-300 group-hover:text-gold transition-colors text-lg">
               {PHONE_NUMBER}
-            </a>
-          </div>
+            </span>
+          </a>
 
           {/* WhatsApp */}
-          <div className="bg-dark-card border border-dark-border rounded-xl p-8 text-center hover:border-gold/40 transition-all duration-300 group">
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-dark-card border border-dark-border rounded-xl p-8 text-center hover:border-gold/40 transition-all duration-300 group block"
+          >
             <div className="text-4xl mb-5 text-gold">💬</div>
             <h3 className="font-display text-lg font-semibold text-white tracking-wide uppercase mb-3">
               WhatsApp
             </h3>
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-body text-gray-300 hover:text-gold transition-colors text-base"
-            >
-              Stuur een bericht
-            </a>
-          </div>
+            <span className="font-body text-gray-300 group-hover:text-gold transition-colors text-base">
+              Manda un mensahe
+            </span>
+          </a>
 
           {/* Location */}
-          <div className="bg-dark-card border border-dark-border rounded-xl p-8 text-center hover:border-gold/40 transition-all duration-300">
+          <a
+            href={MAPS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-dark-card border border-dark-border rounded-xl p-8 text-center hover:border-gold/40 transition-all duration-300 group block"
+          >
             <div className="text-4xl mb-5 text-gold">📍</div>
             <h3 className="font-display text-lg font-semibold text-white tracking-wide uppercase mb-3">
-              Locatie
+              Adrès
             </h3>
-            <p className="font-body text-gray-400 text-base leading-relaxed">
+            <span className="font-body text-gray-400 group-hover:text-gold transition-colors text-base leading-relaxed">
               Curaçao
-            </p>
-          </div>
+            </span>
+          </a>
         </div>
 
         {/* Opening hours */}
         <div className="bg-dark-card border border-dark-border rounded-2xl p-8 sm:p-12">
           <h3 className="font-display text-2xl sm:text-3xl font-bold text-white uppercase tracking-wide text-center mb-10">
-            Openingstijden
+            Orario
           </h3>
           <p className="text-center font-body text-gray-300 text-base">
             Skohe bo orario den e agenda.

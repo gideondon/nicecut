@@ -31,7 +31,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="font-body text-gray-500 text-sm leading-relaxed max-w-xs">
-              Premium barbershop op Curaçao. Precisie. Stijl. Karakter.
+              Servisio sigurá.
             </p>
           </div>
 
@@ -101,7 +101,7 @@ export default function Footer() {
             href="#booking"
             className="font-display tracking-widest text-xs uppercase bg-gold/10 hover:bg-gold hover:text-dark text-gold border border-gold/30 px-6 py-2.5 rounded transition-all duration-200"
           >
-            Boek Nu
+            Traha Bo Sita
           </a>
         </div>
       </div>

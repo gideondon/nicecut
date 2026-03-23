@@ -55,7 +55,7 @@ export default function Services() {
         {/* Header */}
         <div className="text-center mb-16">
           <p className="font-display text-gold tracking-[0.4em] text-sm uppercase mb-4">
-            Loke nos ta ofrese
+            ESAKI TA
           </p>
           <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white uppercase tracking-tight">
             Nos servisionan

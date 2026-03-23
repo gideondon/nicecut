@@ -11,16 +11,15 @@ export default function Booking() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="font-display text-gold tracking-[0.4em] text-sm uppercase mb-4">
-            Klaar voor jouw look?
+          <p className="font-display text-white tracking-[0.4em] text-sm uppercase mb-4">
+            Bo ta kla pa un "look" nobo?
           </p>
           <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white uppercase tracking-tight leading-none mb-6">
-            Boek jouw{" "}
-            <span className="text-gold">Afspraak</span>
+            <span className="text-gold">TRAHA BO SITA</span>
           </h2>
           <div className="gold-divider mx-auto mb-6" />
           <p className="font-body text-gray-400 text-base max-w-lg mx-auto">
-            Kies jouw service, dag en tijdslot — direct hieronder. Geen app nodig.
+            Skohe bo servisio, dia i orario den e sigiente area:
           </p>
         </div>
 
