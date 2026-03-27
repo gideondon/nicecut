@@ -25,6 +25,10 @@ export const metadata: Metadata = {
     description: "Premium barbershop op Curaçao. Boek nu jouw afspraak.",
     type: "website",
   },
+  icons: {
+    icon: '/logo.jpeg',
+    apple: '/logo.jpeg',
+  },
 };
 
 export default function RootLayout({
