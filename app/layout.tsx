@@ -16,6 +16,7 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.nicecutbarbershop.com"),
   title: "Nice Cut Barbershop – Curaçao",
   description:
     "Premium barbershop op Curaçao. Fades, baardverzorging, kinderknippen en meer. Boek nu jouw afspraak online.",
@@ -24,10 +25,19 @@ export const metadata: Metadata = {
     title: "Nice Cut Barbershop – Curaçao",
     description: "Premium barbershop op Curaçao. Boek nu jouw afspraak.",
     type: "website",
+    url: "https://www.nicecutbarbershop.com",
+    images: [
+      {
+        url: "/logo.png",
+        width: 300,
+        height: 300,
+        alt: "Nice Cut Barbershop",
+      },
+    ],
   },
   icons: {
-    icon: '/logo.jpeg',
-    apple: '/logo.jpeg',
+    icon: "/logo.png",
+    apple: "/logo.png",
   },
 };
 
