@@ -27,7 +27,7 @@ export default function Hero() {
         <div className="flex justify-center mb-8">
           <div className="relative w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden border-4 border-gold shadow-2xl shadow-gold/30">
             <Image
-              src="/logo.jpeg"
+              src="/logo.png"
               alt="Nice Cut Barbershop"
               fill
               className="object-cover"

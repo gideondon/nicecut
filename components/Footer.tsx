@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <div className="relative w-10 h-10 rounded-full overflow-hidden border border-gold/50">
                 <Image
-                  src="/logo.jpeg"
+                  src="/logo.png"
                   alt="Nice Cut Logo"
                   fill
                   className="object-cover"
