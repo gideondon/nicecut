@@ -38,7 +38,7 @@ export default function Header() {
                 src="/logo.png"
                 alt="Nice Cut Barbershop Logo"
                 fill
-                className="object-cover"
+                className="object-cover object-center"
                 priority
               />
             </div>
