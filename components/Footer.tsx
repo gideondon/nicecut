@@ -18,7 +18,7 @@ export default function Footer() {
                   src="/logo.png"
                   alt="Nice Cut Logo"
                   fill
-                  className="object-cover object-center"
+                  className="object-cover object-center scale-110"
                 />
               </div>
               <div>

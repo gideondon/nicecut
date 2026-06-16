@@ -30,7 +30,7 @@ export default function Hero() {
               src="/logo.png"
               alt="Nice Cut Barbershop"
               fill
-              className="object-cover object-center"
+              className="object-cover object-center scale-110"
               priority
             />
           </div>
